@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8684027D1D1CCB8200DF5380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8684027C1D1CCB8200DF5380 /* main.m */; };
+		868402801D1CCB8200DF5380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8684027F1D1CCB8200DF5380 /* AppDelegate.m */; };
+		868402831D1CCB8200DF5380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868402821D1CCB8200DF5380 /* ViewController.m */; };
+		868402861D1CCB8200DF5380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868402841D1CCB8200DF5380 /* Main.storyboard */; };
+		868402881D1CCB8200DF5380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868402871D1CCB8200DF5380 /* Assets.xcassets */; };
+		8684028B1D1CCB8200DF5380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868402891D1CCB8200DF5380 /* LaunchScreen.storyboard */; };
+		868402961D1CCB8200DF5380 /* LMChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 868402951D1CCB8200DF5380 /* LMChatTests.m */; };
+		868402A11D1CCB8200DF5380 /* LMChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 868402A01D1CCB8200DF5380 /* LMChatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		868402921D1CCB8200DF5380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868402701D1CCB8200DF5380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868402771D1CCB8200DF5380;
+			remoteInfo = LMChat;
+		};
+		8684029D1D1CCB8200DF5380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868402701D1CCB8200DF5380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868402771D1CCB8200DF5380;
+			remoteInfo = LMChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		868402781D1CCB8200DF5380 /* LMChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8684027C1D1CCB8200DF5380 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8684027E1D1CCB8200DF5380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8684027F1D1CCB8200DF5380 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		868402811D1CCB8200DF5380 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		868402821D1CCB8200DF5380 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		868402851D1CCB8200DF5380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		868402871D1CCB8200DF5380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8684028A1D1CCB8200DF5380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8684028C1D1CCB8200DF5380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868402911D1CCB8200DF5380 /* LMChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		868402951D1CCB8200DF5380 /* LMChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMChatTests.m; sourceTree = "<group>"; };
+		868402971D1CCB8200DF5380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8684029C1D1CCB8200DF5380 /* LMChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		868402A01D1CCB8200DF5380 /* LMChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMChatUITests.m; sourceTree = "<group>"; };
+		868402A21D1CCB8200DF5380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		868402751D1CCB8200DF5380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8684028E1D1CCB8200DF5380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868402991D1CCB8200DF5380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8684026F1D1CCB8200DF5380 = {
+			isa = PBXGroup;
+			children = (
+				8684027A1D1CCB8200DF5380 /* LMChat */,
+				868402941D1CCB8200DF5380 /* LMChatTests */,
+				8684029F1D1CCB8200DF5380 /* LMChatUITests */,
+				868402791D1CCB8200DF5380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		868402791D1CCB8200DF5380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				868402781D1CCB8200DF5380 /* LMChat.app */,
+				868402911D1CCB8200DF5380 /* LMChatTests.xctest */,
+				8684029C1D1CCB8200DF5380 /* LMChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8684027A1D1CCB8200DF5380 /* LMChat */ = {
+			isa = PBXGroup;
+			children = (
+				8684027E1D1CCB8200DF5380 /* AppDelegate.h */,
+				8684027F1D1CCB8200DF5380 /* AppDelegate.m */,
+				868402811D1CCB8200DF5380 /* ViewController.h */,
+				868402821D1CCB8200DF5380 /* ViewController.m */,
+				868402841D1CCB8200DF5380 /* Main.storyboard */,
+				868402871D1CCB8200DF5380 /* Assets.xcassets */,
+				868402891D1CCB8200DF5380 /* LaunchScreen.storyboard */,
+				8684028C1D1CCB8200DF5380 /* Info.plist */,
+				8684027B1D1CCB8200DF5380 /* Supporting Files */,
+			);
+			path = LMChat;
+			sourceTree = "<group>";
+		};
+		8684027B1D1CCB8200DF5380 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8684027C1D1CCB8200DF5380 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		868402941D1CCB8200DF5380 /* LMChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				868402951D1CCB8200DF5380 /* LMChatTests.m */,
+				868402971D1CCB8200DF5380 /* Info.plist */,
+			);
+			path = LMChatTests;
+			sourceTree = "<group>";
+		};
+		8684029F1D1CCB8200DF5380 /* LMChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				868402A01D1CCB8200DF5380 /* LMChatUITests.m */,
+				868402A21D1CCB8200DF5380 /* Info.plist */,
+			);
+			path = LMChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		868402771D1CCB8200DF5380 /* LMChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868402A51D1CCB8200DF5380 /* Build configuration list for PBXNativeTarget "LMChat" */;
+			buildPhases = (
+				868402741D1CCB8200DF5380 /* Sources */,
+				868402751D1CCB8200DF5380 /* Frameworks */,
+				868402761D1CCB8200DF5380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMChat;
+			productName = LMChat;
+			productReference = 868402781D1CCB8200DF5380 /* LMChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		868402901D1CCB8200DF5380 /* LMChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868402A81D1CCB8200DF5380 /* Build configuration list for PBXNativeTarget "LMChatTests" */;
+			buildPhases = (
+				8684028D1D1CCB8200DF5380 /* Sources */,
+				8684028E1D1CCB8200DF5380 /* Frameworks */,
+				8684028F1D1CCB8200DF5380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868402931D1CCB8200DF5380 /* PBXTargetDependency */,
+			);
+			name = LMChatTests;
+			productName = LMChatTests;
+			productReference = 868402911D1CCB8200DF5380 /* LMChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8684029B1D1CCB8200DF5380 /* LMChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868402AB1D1CCB8200DF5380 /* Build configuration list for PBXNativeTarget "LMChatUITests" */;
+			buildPhases = (
+				868402981D1CCB8200DF5380 /* Sources */,
+				868402991D1CCB8200DF5380 /* Frameworks */,
+				8684029A1D1CCB8200DF5380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8684029E1D1CCB8200DF5380 /* PBXTargetDependency */,
+			);
+			name = LMChatUITests;
+			productName = LMChatUITests;
+			productReference = 8684029C1D1CCB8200DF5380 /* LMChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		868402701D1CCB8200DF5380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CoderDoctorLee;
+				TargetAttributes = {
+					868402771D1CCB8200DF5380 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					868402901D1CCB8200DF5380 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 868402771D1CCB8200DF5380;
+					};
+					8684029B1D1CCB8200DF5380 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 868402771D1CCB8200DF5380;
+					};
+				};
+			};
+			buildConfigurationList = 868402731D1CCB8200DF5380 /* Build configuration list for PBXProject "LMChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8684026F1D1CCB8200DF5380;
+			productRefGroup = 868402791D1CCB8200DF5380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				868402771D1CCB8200DF5380 /* LMChat */,
+				868402901D1CCB8200DF5380 /* LMChatTests */,
+				8684029B1D1CCB8200DF5380 /* LMChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		868402761D1CCB8200DF5380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8684028B1D1CCB8200DF5380 /* LaunchScreen.storyboard in Resources */,
+				868402881D1CCB8200DF5380 /* Assets.xcassets in Resources */,
+				868402861D1CCB8200DF5380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8684028F1D1CCB8200DF5380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8684029A1D1CCB8200DF5380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		868402741D1CCB8200DF5380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868402831D1CCB8200DF5380 /* ViewController.m in Sources */,
+				868402801D1CCB8200DF5380 /* AppDelegate.m in Sources */,
+				8684027D1D1CCB8200DF5380 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8684028D1D1CCB8200DF5380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868402961D1CCB8200DF5380 /* LMChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868402981D1CCB8200DF5380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868402A11D1CCB8200DF5380 /* LMChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		868402931D1CCB8200DF5380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868402771D1CCB8200DF5380 /* LMChat */;
+			targetProxy = 868402921D1CCB8200DF5380 /* PBXContainerItemProxy */;
+		};
+		8684029E1D1CCB8200DF5380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868402771D1CCB8200DF5380 /* LMChat */;
+			targetProxy = 8684029D1D1CCB8200DF5380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		868402841D1CCB8200DF5380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868402851D1CCB8200DF5380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		868402891D1CCB8200DF5380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8684028A1D1CCB8200DF5380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		868402A31D1CCB8200DF5380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		868402A41D1CCB8200DF5380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		868402A61D1CCB8200DF5380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Berry.LMChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		868402A71D1CCB8200DF5380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Berry.LMChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		868402A91D1CCB8200DF5380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Berry.LMChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMChat.app/LMChat";
+			};
+			name = Debug;
+		};
+		868402AA1D1CCB8200DF5380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Berry.LMChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMChat.app/LMChat";
+			};
+			name = Release;
+		};
+		868402AC1D1CCB8200DF5380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Berry.LMChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMChat;
+			};
+			name = Debug;
+		};
+		868402AD1D1CCB8200DF5380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Berry.LMChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		868402731D1CCB8200DF5380 /* Build configuration list for PBXProject "LMChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868402A31D1CCB8200DF5380 /* Debug */,
+				868402A41D1CCB8200DF5380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868402A51D1CCB8200DF5380 /* Build configuration list for PBXNativeTarget "LMChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868402A61D1CCB8200DF5380 /* Debug */,
+				868402A71D1CCB8200DF5380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		868402A81D1CCB8200DF5380 /* Build configuration list for PBXNativeTarget "LMChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868402A91D1CCB8200DF5380 /* Debug */,
+				868402AA1D1CCB8200DF5380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		868402AB1D1CCB8200DF5380 /* Build configuration list for PBXNativeTarget "LMChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868402AC1D1CCB8200DF5380 /* Debug */,
+				868402AD1D1CCB8200DF5380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 868402701D1CCB8200DF5380 /* Project object */;
+}
