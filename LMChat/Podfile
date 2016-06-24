@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, ‘8.0’
+
+target 'LMChat' do
+
+  pod 'HyphenateFullSDK', :git => 'https://github.com/easemob/hyphenate-full-cocoapods.git'
+
+
+  target 'LMChatTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LMChatUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
