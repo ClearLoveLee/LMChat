@@ -16,6 +16,16 @@
 		8684028B1D1CCB8200DF5380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868402891D1CCB8200DF5380 /* LaunchScreen.storyboard */; };
 		868402961D1CCB8200DF5380 /* LMChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 868402951D1CCB8200DF5380 /* LMChatTests.m */; };
 		868402A11D1CCB8200DF5380 /* LMChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 868402A01D1CCB8200DF5380 /* LMChatUITests.m */; };
+		868402B11D1CE13500DF5380 /* jpush-ios-2.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 868402AF1D1CE13500DF5380 /* jpush-ios-2.1.8.a */; };
+		868402B31D1CE16300DF5380 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868402B21D1CE16300DF5380 /* CFNetwork.framework */; };
+		868402B51D1CE17300DF5380 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868402B41D1CE17300DF5380 /* CoreFoundation.framework */; };
+		868402B71D1CE17B00DF5380 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868402B61D1CE17B00DF5380 /* CoreTelephony.framework */; };
+		868402B91D1CE18400DF5380 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868402B81D1CE18400DF5380 /* SystemConfiguration.framework */; };
+		868402BB1D1CE18B00DF5380 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868402BA1D1CE18B00DF5380 /* CoreGraphics.framework */; };
+		868402BD1D1CE19500DF5380 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868402BC1D1CE19500DF5380 /* Foundation.framework */; };
+		868402BF1D1CE19D00DF5380 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868402BE1D1CE19D00DF5380 /* UIKit.framework */; };
+		868402C11D1CE1A400DF5380 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868402C01D1CE1A400DF5380 /* Security.framework */; };
+		868402C31D1CE1B200DF5380 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 868402C21D1CE1B200DF5380 /* libz.tbd */; };
 		C485F8BF04A6969389709379 /* libPods-LMChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7317014D25CA17C4DC8FC810 /* libPods-LMChat.a */; };
 		C56C8F13440255D37FDE13AC /* libPods-LMChatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84FB6D601DC0F1F355EBF04 /* libPods-LMChatUITests.a */; };
 /* End PBXBuildFile section */
@@ -59,6 +69,18 @@
 		8684029C1D1CCB8200DF5380 /* LMChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		868402A01D1CCB8200DF5380 /* LMChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMChatUITests.m; sourceTree = "<group>"; };
 		868402A21D1CCB8200DF5380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868402AF1D1CE13500DF5380 /* jpush-ios-2.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.8.a"; sourceTree = "<group>"; };
+		868402B01D1CE13500DF5380 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		868402B21D1CE16300DF5380 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		868402B41D1CE17300DF5380 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		868402B61D1CE17B00DF5380 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		868402B81D1CE18400DF5380 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		868402BA1D1CE18B00DF5380 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		868402BC1D1CE19500DF5380 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		868402BE1D1CE19D00DF5380 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		868402C01D1CE1A400DF5380 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		868402C21D1CE1B200DF5380 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		868402C41D1CE1B900DF5380 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		AE7656521D9CEE2B82FA60F4 /* Pods-LMChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LMChatUITests/Pods-LMChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D84FB6D601DC0F1F355EBF04 /* libPods-LMChatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LMChatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9E65938EC210FCC9491A24 /* Pods-LMChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMChat/Pods-LMChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +92,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868402C31D1CE1B200DF5380 /* libz.tbd in Frameworks */,
+				868402C11D1CE1A400DF5380 /* Security.framework in Frameworks */,
+				868402BF1D1CE19D00DF5380 /* UIKit.framework in Frameworks */,
+				868402BD1D1CE19500DF5380 /* Foundation.framework in Frameworks */,
+				868402BB1D1CE18B00DF5380 /* CoreGraphics.framework in Frameworks */,
+				868402B91D1CE18400DF5380 /* SystemConfiguration.framework in Frameworks */,
+				868402B71D1CE17B00DF5380 /* CoreTelephony.framework in Frameworks */,
+				868402B51D1CE17300DF5380 /* CoreFoundation.framework in Frameworks */,
+				868402B31D1CE16300DF5380 /* CFNetwork.framework in Frameworks */,
+				868402B11D1CE13500DF5380 /* jpush-ios-2.1.8.a in Frameworks */,
 				C485F8BF04A6969389709379 /* libPods-LMChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +128,16 @@
 		139124428B32FA38941F84DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				868402C41D1CE1B900DF5380 /* AdSupport.framework */,
+				868402C21D1CE1B200DF5380 /* libz.tbd */,
+				868402C01D1CE1A400DF5380 /* Security.framework */,
+				868402BE1D1CE19D00DF5380 /* UIKit.framework */,
+				868402BC1D1CE19500DF5380 /* Foundation.framework */,
+				868402BA1D1CE18B00DF5380 /* CoreGraphics.framework */,
+				868402B81D1CE18400DF5380 /* SystemConfiguration.framework */,
+				868402B61D1CE17B00DF5380 /* CoreTelephony.framework */,
+				868402B41D1CE17300DF5380 /* CoreFoundation.framework */,
+				868402B21D1CE16300DF5380 /* CFNetwork.framework */,
 				7317014D25CA17C4DC8FC810 /* libPods-LMChat.a */,
 				7448832E2195E070BA67A6A6 /* libPods-LMChatTests.a */,
 				D84FB6D601DC0F1F355EBF04 /* libPods-LMChatUITests.a */,
@@ -128,6 +170,7 @@
 		8684027A1D1CCB8200DF5380 /* LMChat */ = {
 			isa = PBXGroup;
 			children = (
+				868402AE1D1CE13500DF5380 /* lib */,
 				8684027E1D1CCB8200DF5380 /* AppDelegate.h */,
 				8684027F1D1CCB8200DF5380 /* AppDelegate.m */,
 				868402811D1CCB8200DF5380 /* ViewController.h */,
@@ -165,6 +208,15 @@
 				868402A21D1CCB8200DF5380 /* Info.plist */,
 			);
 			path = LMChatUITests;
+			sourceTree = "<group>";
+		};
+		868402AE1D1CE13500DF5380 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				868402AF1D1CE13500DF5380 /* jpush-ios-2.1.8.a */,
+				868402B01D1CE13500DF5380 /* JPUSHService.h */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 		BF8A82735699759B57C8740E /* Pods */ = {
@@ -587,6 +639,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LMChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LMChat/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Berry.LMChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -599,6 +655,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LMChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LMChat/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Berry.LMChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
